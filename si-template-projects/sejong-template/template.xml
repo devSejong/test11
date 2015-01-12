@@ -1,0 +1,15 @@
+<template>
+	<descriptor
+		id="org.springframework.integration.sts.template.standalone"
+		name="Sejong-template - File"
+		kind="template"
+		category="${template.category}"
+		requiresbundle="org.eclipse.m2e.core"
+		version="${template.version}">
+		<description>
+			세종템플릿
+		</description>
+	</descriptor>
+	<project path="" />
+	<json path="wizard.json" />
+</template>

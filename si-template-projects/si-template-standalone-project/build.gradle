@@ -1,0 +1,48 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply from: 'publish-maven.gradle'
+
+repositories {
+	mavenCentral()
+	maven { url 'http://repo.springsource.org/libs-milestone' }
+}
+
+group   = "SI-TEMPLATE-GROUP-ID"
+version = "SI-TEMPLATE-BUILD-VERSION"
+
+sourceCompatibility=1.6
+targetCompatibility=1.6
+
+ext {
+	junitVersion = '4.11'
+	log4jVersion = '1.2.17'
+	springIntegrationVersion = '2.2.4.RELEASE'
+}
+
+eclipse {
+	project {
+		natures += 'org.springframework.ide.eclipse.core.springnature'
+	}
+}
+
+mainClassName = "sipackage.Main"
+
+run{
+	standardInput = System.in
+}
+
+dependencies {
+	compile "org.springframework.integration:spring-integration-core:$springIntegrationVersion"
+	compile "org.springframework.integration:spring-integration-file:$springIntegrationVersion"
+	compile "log4j:log4j:$log4jVersion"
+	compile "commons-io:commons-io:2.4"
+
+	testCompile "junit:junit-dep:$junitVersion"
+}
+
+task wrapper(type: Wrapper) {
+	description = 'Generates gradlew[.bat] scripts'
+	gradleVersion = '1.6'
+}
