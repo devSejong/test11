@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <descriptors>
 <descriptor
-		id="kr.sadalmelik.sejong-tempalte"
+		id="org.springframework.integration.sts.template.standalone.simple2"
 		name="sejong-template - Sejong"
 		kind="template"
 		version="1.0.0.RELEASE"
@@ -9,8 +9,8 @@
 		requires="[3.0.0,4.0)"
 		requiresbundle="org.eclipse.m2e.core"
 		size="9500"
-		category="Sejong template"
-		url="https://raw.githubusercontent.com/devSejong/test11/master/si-sts-templates/target/out/sejong-template-1.0.0.RELEASE.zip">
+		category="Integration"
+		url="file:///Users/SejongPark/Downloads/spring-integration-templates-master/test11/si-sts-templates/target/out/sejong-template-1.0.0.RELEASE.zip">
 		<description>??¸ì?? ??????ë¦? ?????¤í??</description>
 	</descriptor>
 

@@ -3,9 +3,9 @@
 		id="kr.sadalmelik.sejong-tempalte"
 		name="Sejong-template - File"
 		kind="template"
-		category="${template.category}"
+		category="Sejong template"
 		requiresbundle="org.eclipse.m2e.core"
-		version="${template.version}">
+		version="1.0.0.RELEASE">
 		<description>Sejong template
 		</description>
 	</descriptor>
