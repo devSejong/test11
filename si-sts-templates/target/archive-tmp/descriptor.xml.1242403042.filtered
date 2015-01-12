@@ -4,14 +4,14 @@
 		id="kr.sadalmelik.sejong-tempalte"
 		name="sejong-template - Sejong"
 		kind="template"
-		version="${template.version}"
+		version="1.0.0.RELEASE"
 		local="false"
 		requires="[3.0.0,4.0)"
 		requiresbundle="org.eclipse.m2e.core"
-		size="${template.standalone-simple.size}"
-		category="${template.category}"
-		url="${base.location}/sejong-template-${template.version}.zip">
-		<description>test!!!</description>
+		size="9500"
+		category="Sejong template"
+		url="https://raw.githubusercontent.com/devSejong/test11/master/si-sts-templates/target/out/sejong-template-1.0.0.RELEASE.zip">
+		<description>??¸ì?? ??????ë¦? ?????¤í??</description>
 	</descriptor>
 
 </descriptors>

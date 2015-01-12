@@ -1,0 +1,14 @@
+<template>
+	<descriptor
+		id="kr.sadalmelik.sejong-tempalte"
+		name="Sejong-template - File"
+		kind="template"
+		category="Sejong template"
+		requiresbundle="org.eclipse.m2e.core"
+		version="1.0.0.RELEASE">
+		<description>Sejong template
+		</description>
+	</descriptor>
+	<project path="" />
+	<json path="wizard.json" />
+</template>
