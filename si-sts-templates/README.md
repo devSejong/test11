@@ -1,4 +1,4 @@
-Spring Integration STS Templates
+Spring STS Templates
 ================================
 
 This project provides various project templates for SpringSource Tool Suite™ (STS).
